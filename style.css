@@ -269,12 +269,12 @@
 }
 
 .leftBox img {
-    width: 300px;
+    width: 65%;
 }
 
 .rightBox {
     display: flex;
-    margin-left: 60px;
+    margin: 0 70px 0px 0;
     flex-direction: column;
 }
 
@@ -287,11 +287,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 180px;
+    width: 100%;
 }
 
 .iconImg img {
-    width: 190px;
+    width: 75%;
     margin-bottom: 15px;
 }
 
@@ -303,15 +303,15 @@
     margin-bottom: 25px;
 }
 .breathGuard img {
-    margin-bottom: 30px;
+    margin: 30px 0 50px 0;
 }
 
 .helmetBag {
     margin: auto;
 }
 .helmetBag img {
-    width: 140px;
-    margin-bottom: 0px;
+    width: 75%;
+    margin: 10px 0;
 }
 /* Content About What's In The Box */
 
@@ -533,6 +533,103 @@ footer {
     .img-neo img {
         width: 700px;
     }
+    /* Content Neo Tech */
+
+    .InTheBox {
+        padding: 160px 0;
+    }
+
+    .InTheBox h1 {
+        margin-bottom: 45px;
+        font-size: 55px;
+    }
+
+    .leftBox img {
+        width: 100%;
+    }
+
+    .rightBox {
+        margin-left: 80px;
+    }
+
+    .iconImg {
+        height: 280px;
+        width: 100%;
+    }
+
+    .iconImg h2 {
+        font-size: 25px;
+    }
+
+    .pinlockEvo img {
+        margin-bottom: 35px;
+    }
+
+    .breathGuard img {
+        margin: 50px 0 50px 0;
+    }
+
+    .iconImg img {
+        width: 100%;
+    }
+
+    .helmetBag img {
+        width: 100%;
+    }
+    /* Content In The Box */
+
+    .formContent {
+        padding: 120px 0;
+    }
+
+    .formTitle img {
+        width: 15%;
+        margin-bottom: 35px;
+    }
+
+    .formTitle h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .form {
+        margin-top: 40px;
+    }
+
+    form {
+        width:40%;
+    }
+
+    form input {
+        margin: 0px 0px 20px 0;
+        padding: 25px;
+    }
+
+    form input::placeholder {
+        font-size: 23px;
+    }
+    
+    form input:focus {
+        font-size: 23px;
+    }
+
+    form .message {
+        padding-bottom: 180px;
+    }
+
+    form .btn-submit {
+        margin: 5px auto 0 auto;
+        width:30%;
+        padding: 15px 0;
+        font-size: 23px;
+    }
+    /* Form Content */
+
+    footer {
+        padding: 70px 0;
+        font-size: 21px;
+    }
+    /* Footer */
 }
 
 @media screen and (min-width: 1700px) and (max-width: 2000px) {
@@ -683,6 +780,103 @@ footer {
     .img-neo img {
         width: 650px;
     }
+    /* Content Neo Tech */
+
+    .InTheBox {
+        padding: 100px 0;
+    }
+
+    .InTheBox h1 {
+        margin-bottom: 45px;
+        font-size: 55px;
+    }
+
+    .leftBox img {
+        width: 70%;
+    }
+
+    .rightBox {
+        margin-left: 70px;
+    }
+
+    .iconImg {
+        height: 250px;
+        width: 70%;
+    }
+
+    .iconImg h2 {
+        font-size: 25px;
+    }
+
+    .pinlockEvo img {
+        margin-bottom: 35px;
+    }
+
+    .breathGuard img {
+        margin: 50px 0 50px 0;
+    }
+
+    .iconImg img {
+        width: 100%;
+    }
+
+    .helmetBag img {
+        width: 100%;
+    }
+    /* Content In The Box */
+
+    .formContent {
+        padding: 120px 0;
+    }
+
+    .formTitle img {
+        width: 15%;
+        margin-bottom: 35px;
+    }
+
+    .formTitle h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .form {
+        margin-top: 40px;
+    }
+
+    form {
+        width:40%;
+    }
+
+    form input {
+        margin: 0px 0px 20px 0;
+        padding: 25px;
+    }
+
+    form input::placeholder {
+        font-size: 23px;
+    }
+    
+    form input:focus {
+        font-size: 23px;
+    }
+
+    form .message {
+        padding-bottom: 180px;
+    }
+
+    form .btn-submit {
+        margin: 5px auto 0 auto;
+        width:30%;
+        padding: 15px 0;
+        font-size: 23px;
+    }
+    /* Form Content */
+
+    footer {
+        padding: 70px 0;
+        font-size: 21px;
+    }
+    /* Footer */
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1700px) {
@@ -813,6 +1007,159 @@ footer {
     .img-neo img {
         width: 550px;
     }
+    /* Contenct Neo Tech */
+
+    .InTheBox {
+        padding: 80px 0;
+    }
+
+    .InTheBox h1 {
+        margin-bottom: 40px;
+        font-size: 45px;
+    }
+
+    .leftBox img {
+        width: 65%;
+    }
+
+    .rightBox {
+        margin-left: 60px;
+    }
+
+    .iconImg {
+        height: 220px;
+        width: 65%;
+    }
+
+    .iconImg h2 {
+        font-size: 25px;
+    }
+
+    .pinlockEvo img {
+        margin-bottom: 35px;
+    }
+
+    .breathGuard img {
+        margin: 30px 0 35px 0;
+    }
+
+    .iconImg img {
+        width: 75%;
+    }
+
+    .helmetBag img {
+        width: 75%;
+    }
+    /* Content In The Box */
+
+    
+    .formContent {
+        padding: 100px 0;
+    }
+
+    .formTitle img {
+        width: 15%;
+        margin-bottom: 35px;
+    }
+
+    .formTitle h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .form {
+        margin-top: 40px;
+    }
+
+    form {
+        width:40%;
+    }
+
+    form input {
+        margin: 0px 0px 20px 0;
+        padding: 25px;
+    }
+
+    form input::placeholder {
+        font-size: 23px;
+    }
+    
+    form input:focus {
+        font-size: 23px;
+    }
+
+    form .message {
+        padding-bottom: 180px;
+    }
+
+    form .btn-submit {
+        margin: 5px auto 0 auto;
+        width:30%;
+        padding: 15px 0;
+        font-size: 23px;
+    }
+    /* Form Content */
+
+    footer {
+        padding: 45px 0;
+        font-size: 18px;
+    }
+    /* Footer */
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+    .iconImg {
+        height: 170px;
+    }
+
+    .iconImg img {
+        width: 63%;
+    }
+
+    .helmetBag img {
+        width: 63%;
+    }
+    /* Content What's In The Box */
+
+        
+    .formContent {
+        padding: 80px 0;
+    }
+
+    .formTitle h2 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    form input {
+        margin: 0px 0px 15px 0;
+        padding: 18px;
+    }
+
+    form input::placeholder {
+        font-size: 17px;
+    }
+
+    form input:focus {
+        font-size: 18px;
+    }
+
+    form .message {
+        padding-bottom: 130px;
+    }
+
+    form .btn-submit {
+        margin: 5px auto 0 auto;
+        width:25%;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+    /* Bagian Form Content */
+
+    footer {
+        font-size: 15px;
+    }
+    /* Footer */
 }
 
 @media screen and (max-width: 1300px ){
@@ -907,6 +1254,9 @@ footer {
     .img-neo img {
         width: 450px;
     }
+    /* About Neo Tech */
+
+
 }
 
 @media screen and (max-width:1200px) {
@@ -952,6 +1302,19 @@ footer {
     
     .helmet-type p:nth-child(3) {
         line-height: 25px;
+    }
+
+    /* About Neo Tech */
+    .InTheBox h1 {
+        font-size: 35px;
+    }
+
+    .iconImg {
+        width: 95%;
+    }
+
+    .leftBox img {
+        width: 58%;
     }
 }
 
@@ -1160,6 +1523,57 @@ footer {
     .img-neo img {
         width: 335px;
     }
+    /* Content Neo Tech */
+
+    .InTheBox h1 {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .leftBox img {
+        margin: 18px 0;
+    }
+
+    .leftBox h2 {
+        font-size: 15px;
+    }
+
+    .iconImg h2 {
+        font-size: 15px;
+    }
+    /* Content What's In The Box */
+
+    .formTitle img {
+        width: 150px;
+    }
+
+    .formTitle h2 {
+        font-size: 15px;
+    }
+
+    form input {
+        padding: 12px;
+    }
+
+    form input::placeholder {        
+        font-size: 12px;
+    }
+    
+    form input:focus {        
+        font-size: 12px;
+    }
+
+    form .btn-submit {
+        padding: 7px 0;
+        font-size: 12px;
+    }
+    /* Form Content */
+
+    footer {
+        padding: 25px 0;
+        font-size: 11px;
+    }
+    /* Footer */
 }
 
 @media screen and (max-width: 900px) {
@@ -1323,7 +1737,60 @@ footer {
         width: 315px;
     }
     /* Neo Tech */
+
+    .leftBox img {
+        margin: 15px 0;
+    }
+
+    .breathGuard img {
+        margin: 25px 0 30px 0;
+    }
+
+    .helmetBag img {
+        width: 70%;
+        margin: 10px 0 7px 0;
+    }
+    /* Content Whats In The Box */
+
+    .formTitle img {
+        width: 120px;
+        margin-bottom: 15px;
+    }
+
+    .formTitle h2 {
+        font-size: 13px;
+    }
+
+    form input {
+        padding: 8px;
+    }
+
+    form input::placeholder {        
+        font-size: 10px;
+    }
+    
+    form input:focus {        
+        font-size: 10px;
+    }
+
+    .form {
+        margin-top: 20px;
+    }
+
+    form .btn-submit {
+        padding: 7px 0;
+        font-size: 10px;
+    }
+    /* Form Content */
+
+    footer {
+        padding: 20px 0;
+        font-size: 9px;
+    }
+    /* Footer */
+
 }
+
 
 @media screen and (max-width: 750px) {
     .img-header {
@@ -1402,11 +1869,38 @@ footer {
     .img-neo img {
         width: 300px;
     }
+    /* Content Neo Type */
 
-    /* About What's In The Box */
-    .iconImg img {
-        width: 100px;
+    .InTheBox h1 {
+        font-size: 18px;
     }
+
+    .leftBox h2 {
+        font-size: 13px;
+    }
+
+    .iconImg h2 {
+        font-size: 13px;
+    }
+    /* About What's In The Box */
+
+    .formTitle h2 {
+        font-size: 11px;
+    }
+
+    form input {
+        padding: 6px;
+    }
+
+    form .message {
+        padding-bottom: 80px;
+    }
+
+    form .btn-submit {
+        padding: 5px 0;
+        font-size: 8px;
+    }
+    /* Form Content */
 }
 
 @media screen and (max-width: 700px) {
@@ -1475,6 +1969,10 @@ footer {
     }
     /* About Neo Tech */
 
+    .formContent {
+        padding: 30px 0;
+    }
+    /* Form Content */
 }
 
 @media screen and (max-width: 650px) {
@@ -1598,6 +2096,57 @@ footer {
     .img-neo img {
         width: 230px;
     }
+    /* Content Neo Tech */
+
+    .InTheBox h1 {
+        font-size: 16px;
+    }
+
+    .leftBox h2 {
+        font-size: 11px;
+    }
+
+    .iconImg h2 {
+        font-size: 11px;
+    }
+
+    .breathGuard img {
+        margin: 25px 0 25px 0;
+    }
+    /* About What's In The Box */
+
+    .formTitle img {
+        width: 100px;
+    }
+
+    .formTitle h2 {
+        font-size: 10px;
+    }
+
+    form input {
+        padding: 3px 5px;
+        margin: 0px 0px 8px 0;
+    }
+
+    form input::placeholder {        
+        font-size: 8px;
+    }
+    
+    form input:focus {        
+        font-size: 8px;
+    }
+
+    form .btn-submit {
+        padding: 3px 0;
+        font-size: 7px;
+    }
+    /* Form Content */
+
+    footer {
+        padding: 18px 0;
+        font-size: 7px;
+    }
+    /* Footer */
 }
 
 /* Untuk Smartphone */
@@ -1749,9 +2298,65 @@ footer {
     }
     /* About Neo Tech */
     
-    .iconImg img, .leftBox img {
-        width: 10px;
+    .InTheBox h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
+
+    .boxContainer {
+        flex-direction: column;
+    }
+
+    .leftBox img {
+        width: 40%;
+    }
+
+    .rightBox {
+        margin: 20px 0px 0px 0;
+        padding: 0 10%;
+    }
+
+    .iconImg {
+        justify-content: space-around;
+        width: 100%;
+    }
+    .iconImg img {
+        width: 60%;
+    }
+
+    .helmetBag img {
+        width: 60%;
+        margin: 10px 0;
+    }
+    /* Content Whats In The Box */
+
+    .formTitle img {
+        width: 110px;
+    }
+
+    .formTitle h2 {
+        font-size: 11px;
+    }
+
+    form {
+        width:60%;
+    }
+
+    form input {
+        padding: 3px 0 5px 4px;
+    }
+
+    form input:focus {        
+        font-size: 9px;
+    }
+
+    form .btn-submit {
+        padding: 4px 0;
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+    /* Form Content */
+
 }
 
 @media screen and (max-width: 500px) {
@@ -1900,8 +2505,8 @@ footer {
     }
 
     .img-header {
-        width: 150px;
-        margin-left: 30px;
+        width: 200px;
+        margin:0 auto;
     }
     /* Bagian Jumbotron */
 
@@ -1917,7 +2522,7 @@ footer {
 
 
     .about-text p, .about-view {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .about-view::after{
@@ -1930,20 +2535,25 @@ footer {
     /* Bagian About */
 
     .collection p, .collection-view {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .collection p:nth-child(3) {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .collection-view::after {
-        width: 55px;
+        width: 57px;
     }
     /* Content Collection */
 
     .helmet-type p:nth-child(3) {
-        font-size: 10px;
+        font-size: 11px;
+    }
+    /* Content Neo Tech */
+
+    .rightBox {
+        padding: 0 7%;
     }
 }
 
@@ -1968,8 +2578,8 @@ footer {
     }
 
     .img-header {
-        width: 140px;
-        margin-left: 27px;
+        width: 200px;
+        margin:0 auto;
     }
     /* Bagian Jumbotron */
 
@@ -1982,7 +2592,7 @@ footer {
 
     .shoei {
         margin: 0 0 50px 0;
-        width: 35%;
+        width: 37%;
     }
 
     .shoei h2 {
@@ -2004,7 +2614,7 @@ footer {
     /* Top Selection */
 
     .about-text h2 {
-        font-size: 21px;
+        font-size: 22px;
     }
 
     .about-text p:nth-child(4) {
@@ -2013,6 +2623,10 @@ footer {
 
     .about-text p:nth-child(5), .about-text p:nth-child(6) {
         margin-bottom: 9px;
+    }
+
+    .about-view::after{
+        width: 59px;
     }
     /* Bagian About */
 
@@ -2026,7 +2640,7 @@ footer {
     }
 
     .collection-view::after {
-        width: 53px;
+        width: 59px;
     }
     /* Content Collection */
 
@@ -2035,11 +2649,42 @@ footer {
     }
 
     .helmet-type p:nth-child(2), .helmetType-view {
+        font-size: 11px;
+    }
+
+    .helmetType-view::after {
+        width: 57px;
+    }
+    /* About Neo Tech */
+
+    .leftBox {
+        margin-bottom: 10px;
+    }
+
+    .rightBox {
+        padding: 0 0%;
+    }
+
+    .contentBox {
+        flex-direction: column;
+    }
+
+    .iconImg {
+        margin-bottom: 10px;
+    }
+
+    .iconImg img {
+        width: 38%;
+        margin-bottom: 10px;
+    }
+    /* Content Whats In The Box */
+
+    .formTitle h2 {
         font-size: 10px;
     }
 
-    .helmet-type p:nth-child(3) {
-        font-size: 10px;
+    form input {
+        padding: 2px 0 5px 5px;
     }
 }
 
@@ -2066,8 +2711,7 @@ footer {
     }
 
     .img-header {
-        width: 110px;
-        margin-left: 17px;
+        width: 170px;
     }
     /* Bagian Jumbotron */
     
@@ -2131,6 +2775,7 @@ footer {
     .helmetType-view::after {
         width: 48px;
     }
+    /* Bagian Neo Tech */
 }
 
 @media screen and (max-width: 300px) {
