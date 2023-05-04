@@ -344,7 +344,7 @@
 
 form {
     display: flex;
-    width:36%;
+    width:55%;
     margin: auto;
     flex-direction: column;
 }
@@ -367,12 +367,12 @@ form input:focus {
 }
 
 form .message {
-    padding-bottom: 100px;
+    padding-bottom: 240px;
 }
 
 form .btn-submit {
     margin: 3px auto 0 auto;
-    width:25%;
+    width:20%;
     padding: 10px 0;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -597,12 +597,12 @@ footer {
     }
 
     form {
-        width:40%;
+        width:55%;
     }
 
     form input {
         margin: 0px 0px 20px 0;
-        padding: 25px;
+        padding: 30px;
     }
 
     form input::placeholder {
@@ -614,12 +614,11 @@ footer {
     }
 
     form .message {
-        padding-bottom: 180px;
+        padding-bottom: 280px;
     }
 
     form .btn-submit {
         margin: 5px auto 0 auto;
-        width:30%;
         padding: 15px 0;
         font-size: 23px;
     }
@@ -844,12 +843,12 @@ footer {
     }
 
     form {
-        width:40%;
+        width:55%;
     }
 
     form input {
         margin: 0px 0px 20px 0;
-        padding: 25px;
+        padding: 30px;
     }
 
     form input::placeholder {
@@ -861,12 +860,12 @@ footer {
     }
 
     form .message {
-        padding-bottom: 180px;
+        padding-bottom: 280px;
     }
 
     form .btn-submit {
         margin: 5px auto 0 auto;
-        width:30%;
+        width:20%;
         padding: 15px 0;
         font-size: 23px;
     }
@@ -1072,7 +1071,7 @@ footer {
     }
 
     form {
-        width:40%;
+        width:55%;
     }
 
     form input {
@@ -1094,7 +1093,7 @@ footer {
 
     form .btn-submit {
         margin: 5px auto 0 auto;
-        width:30%;
+        width:20%;
         padding: 15px 0;
         font-size: 23px;
     }
@@ -1133,7 +1132,7 @@ footer {
 
     form input {
         margin: 0px 0px 15px 0;
-        padding: 18px;
+        padding: 20px;
     }
 
     form input::placeholder {
@@ -1150,7 +1149,7 @@ footer {
 
     form .btn-submit {
         margin: 5px auto 0 auto;
-        width:25%;
+        width:20%;
         padding: 10px 0;
         font-size: 18px;
     }
@@ -1255,8 +1254,6 @@ footer {
         width: 450px;
     }
     /* About Neo Tech */
-
-
 }
 
 @media screen and (max-width:1200px) {
@@ -1890,10 +1887,11 @@ footer {
 
     form input {
         padding: 6px;
+        margin-bottom: 10px;
     }
 
     form .message {
-        padding-bottom: 80px;
+        padding-bottom: 150px;
     }
 
     form .btn-submit {
@@ -2124,7 +2122,7 @@ footer {
     }
 
     form input {
-        padding: 3px 5px;
+        padding: 6px;
         margin: 0px 0px 8px 0;
     }
 
@@ -2135,6 +2133,11 @@ footer {
     form input:focus {        
         font-size: 8px;
     }
+
+    form .message {
+        padding-bottom: 120px;
+    }
+    
 
     form .btn-submit {
         padding: 3px 0;
@@ -2159,7 +2162,7 @@ footer {
     }
 
     .title {
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 7%;
         padding: 0 0 20px 0;
     }
     
@@ -2167,9 +2170,17 @@ footer {
         width: 180px;
     }
 
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .title p {
+        font-size: 9px;
+    }
+
     .img-header {
-        width: 170px;
-        margin-left: 50px;
+        width: 45%;
+        margin: 0 auto;
     }
     /* Bagian Jumbotron */
 
@@ -2248,11 +2259,11 @@ footer {
 
 
     .main-logo {
-        height: 210px;
+        height: 240px;
     }
 
     .mainLogoImg {
-        width: 220px;
+        width:250px;
     }
     /* Main Logo */
 
@@ -2321,7 +2332,7 @@ footer {
         width: 100%;
     }
     .iconImg img {
-        width: 60%;
+        width: 70%;
     }
 
     .helmetBag img {
@@ -2339,11 +2350,15 @@ footer {
     }
 
     form {
-        width:60%;
+        width:65%;
     }
 
     form input {
-        padding: 3px 0 5px 4px;
+        padding: 6px 0 7px 4px;
+    }
+
+    form input::placeholder {
+        font-size: 9px;
     }
 
     form input:focus {        
@@ -2351,8 +2366,8 @@ footer {
     }
 
     form .btn-submit {
-        padding: 4px 0;
-        font-size: 8px;
+        padding: 6px 0;
+        font-size: 9px;
         letter-spacing: 0px;
     }
     /* Form Content */
@@ -2360,29 +2375,6 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-    .title {
-        margin: 0px 0px 0px 30px;
-    }
-
-    .title h1 {
-        font-size: 25px;
-    }
-    
-    .title img {
-        width: 170px;
-        margin-bottom: 10px;
-    }
-
-    .title p {
-        font-size: 8px;
-    }
-
-    .img-header {
-        width: 170px;
-        margin-left: 30px;
-    }
-    /* Bagian Jumbotron */
-
     .about {
         padding: 80px 0px;
         flex-direction: column;
@@ -2480,15 +2472,11 @@ footer {
         width: 100%;
         margin-bottom: 20px;
     }
+    /* About Neo Tech */
 }
 @media screen and (max-width: 450px) {
-    .jumbotron {
-        padding: 50px 0;
-    }
-
     .title {
-        margin: 0px 0px 0px 30px;
-        padding: 0 0 20px 0;
+        margin: 0px 0px 0px 5%;
     }
 
     .title h1 {
@@ -2496,17 +2484,7 @@ footer {
     }
     
     .title img {
-        width: 150px;
-        margin-bottom: 10px;
-    }
-
-    .title p {
-        font-size: 8px;
-    }
-
-    .img-header {
-        width: 200px;
-        margin:0 auto;
+        width: 170px;
     }
     /* Bagian Jumbotron */
 
@@ -2534,6 +2512,15 @@ footer {
     }
     /* Bagian About */
 
+    .main-logo {
+        height: 220px;
+    }
+
+    .mainLogoImg {
+        width:230px;
+    }
+    /* Main Logo */
+
     .collection p, .collection-view {
         font-size: 11px;
     }
@@ -2551,35 +2538,24 @@ footer {
         font-size: 11px;
     }
     /* Content Neo Tech */
-
-    .rightBox {
-        padding: 0 7%;
-    }
 }
 
 /* Layar untuk hp seperti redmi note 8 390px - 400px */
 @media screen and (max-width: 400px) {
-    .title {
-        margin: 0px 0px 0px 27px;
-        padding: 0 0 17px 0;
-    }
-
     .title h1 {
-        font-size: 21px;
+        font-size: 23px;
     }
     
     .title img {
         width: 140px;
-        margin-bottom: 10px;
     }
 
     .title p {
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .img-header {
-        width: 200px;
-        margin:0 auto;
+        width: 55%;
     }
     /* Bagian Jumbotron */
 
@@ -2644,6 +2620,15 @@ footer {
     }
     /* Content Collection */
 
+    .main-logo {
+        height: 210px;
+    }
+
+    .mainLogoImg {
+        width:200px;
+    }
+    /* Main Logo */
+
     .helmet-type h2 {
         font-size: 24px;
     }
@@ -2674,7 +2659,7 @@ footer {
     }
 
     .iconImg img {
-        width: 38%;
+        width: 41%;
         margin-bottom: 10px;
     }
     /* Content Whats In The Box */
@@ -2683,18 +2668,11 @@ footer {
         font-size: 10px;
     }
 
-    form input {
-        padding: 2px 0 5px 5px;
-    }
 }
 
 @media screen and (max-width: 350px) {
-    .title {
-        margin: 0px 0px 0px 17px;
-    }
-
     .title h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .title h1:nth-child(3) {
@@ -2703,15 +2681,10 @@ footer {
     
     .title img {
         width: 110px;
-        margin-bottom: 6px;
     }
 
     .title p {
-        font-size:6px;
-    }
-
-    .img-header {
-        width: 170px;
+        font-size:7px;
     }
     /* Bagian Jumbotron */
     
@@ -2737,8 +2710,12 @@ footer {
     }
     /* Bagian About */
 
+    .main-logo {
+        height: 170px;
+    }
+
     .mainLogoImg {
-        width: 180px;
+        width: 160px;
     }
     /* Main Logo */
 
@@ -2776,19 +2753,37 @@ footer {
         width: 48px;
     }
     /* Bagian Neo Tech */
+
+    .formTitle img {
+        width: 90px;
+    }
+
+    .formTitle h2 {
+        font-size: 9px;
+    }
+
+    form input {
+        padding: 2px 0 4px 4px;
+    }
+
+    form input::placeholder {
+        font-size: 8px;
+    }
+
+    form .btn-submit {
+        padding: 4px 0;
+        font-size: 7px;
+    }
+    /* Form Content */
+
+    form input:focus {        
+        font-size: 8px;
+    }
 }
 
 @media screen and (max-width: 300px) {
-    .title {
-        margin: 0px 0px 0px 17px;
-    }
-
     .title h1 {
         font-size: 16px;
-    }
-
-    .title h1:nth-child(3) {
-        margin-bottom: 7px;
     }
     
     .title img {
@@ -2797,21 +2792,16 @@ footer {
     }
 
     .title p {
-        font-size:5px;
-    }
-
-    .img-header {
-        width: 100px;
-        margin-left: 17px;
+        font-size:6px;
     }
     /* Bagian Jumbotron */
 
     .main-logo {
-        height: 170px;
+        height: 150px;
     }
 
     .mainLogoImg {
-        width: 150px;
+        width: 140px;
     }
     /* Content Main Logo */
 
